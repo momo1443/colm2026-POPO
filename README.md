@@ -6,9 +6,6 @@
 ![Figure 1](assets/images/Figure_1.png)
 (A) Scheme of RLVR for mathematical question-solving tasks. A general on-policy RL algorithm will reinforce the positive rollouts, while penalizing the negative rollouts. However, the negative rollouts may not contain a meaningful reasoning chain-of-thought in addressing the graduate-level mathematical questions, which motivates the POPO algorithm design. (B) A comparison of POPO and GRPO on the reward trace (upper panel) and mean output completion length (lower panel) on a simple GSM8K dataset.
 
-![Figure 2](assets/images/Figure_2.png)
-Overview of the POPO components. The policy network (upper part) follows the gradient backpropagation, while the Siamese network (lower part) uses momentum adaptation. Loss is in the grey box. Algorithm~\ref{alg:POPO} shows forward and backward processes.
-
 ---
 
 ## Overview
@@ -22,6 +19,8 @@ Overview of the POPO components. The policy network (upper part) follows the gra
 ```
 L_POPO(θ, φ) = L_NLL(θ) + α · L_sim(θ, φ) + β · L_ent(θ)
 ```
+![Figure 2](assets/images/Figure_2.png)
+Overview of the POPO components. The policy network (upper part) follows the gradient backpropagation, while the Siamese network (lower part) uses momentum adaptation. Loss is in the grey box. Algorithm~\ref{alg:POPO} shows forward and backward processes.
 
 ### Why RLVR?
 
