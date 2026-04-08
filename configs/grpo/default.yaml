@@ -1,0 +1,8 @@
+# GRPO algorithm-specific parameters
+loss_type: grpo
+num_generations: 4
+max_completion_length: 512
+max_prompt_length: 512
+temperature: 1.0
+beta: 0.01
+num_iterations: 1

@@ -1,0 +1,4 @@
+# Dataset: agentica-org/DeepScaleR-Preview-Dataset 
+dataset_name: agentica-org/DeepScaleR-Preview-Dataset
+train_split: train
+prompt_template: qwen_math
