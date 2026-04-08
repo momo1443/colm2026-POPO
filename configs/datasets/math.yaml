@@ -1,4 +1,0 @@
-# Dataset: MATH (competition math)
-dataset_name: hendrycks/competition_math
-train_split: train
-prompt_template: qwen_math
