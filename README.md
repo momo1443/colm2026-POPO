@@ -3,7 +3,7 @@
 > **COLM 2026 under review** — A novel reinforcement learning algorithm that learns optimal policies using only positive examples, designed for Reinforcement Learning with Verifiable Rewards (RLVR) in mathematical reasoning.
 
 
-![Figure 1](figure-1.png)
+![Figure 1](Figure1.png)
 (A) Scheme of RLVR for mathematical question-solving tasks. A general on-policy RL algorithm will reinforce the positive rollouts, while penalizing the negative rollouts. However, the negative rollouts may not contain a meaningful reasoning chain-of-thought in addressing the graduate-level mathematical questions, which motivates the POPO algorithm design. (B) A comparison of POPO and GRPO on the reward trace (upper panel) and mean output completion length (lower panel) on a simple GSM8K dataset.
 
 ![Figure 2](figure-2.png)
