@@ -20,7 +20,7 @@
 L_POPO(θ, φ) = L_NLL(θ) + α · L_sim(θ, φ) + β · L_ent(θ)
 ```
 ![Figure 2](assets/images/Figure_2.png)
-The policy network (upper part) follows the gradient backpropagation, while the Siamese network (lower part) uses momentum adaptation. Loss is in the grey box. Algorithm~\ref{alg:POPO} shows forward and backward processes.
+The policy network (upper part) follows the gradient backpropagation, while the Siamese network (lower part) uses momentum adaptation. Loss is in the grey box. 
 
 ### Why RLVR?
 
