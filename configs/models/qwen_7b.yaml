@@ -1,0 +1,4 @@
+# Model: Qwen2.5-Math-7B
+model_name: Qwen/Qwen2.5-Math-7B
+attn_implementation: sdpa
+torch_dtype: bfloat16
