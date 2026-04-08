@@ -1,6 +1,0 @@
-# Dataset: OpenAI GSM8K (grade school math)
-dataset_name: openai/gsm8k
-dataset_config: main
-train_split: train
-test_split: test
-prompt_template: qwen_math
