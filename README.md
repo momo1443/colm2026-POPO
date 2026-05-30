@@ -1,6 +1,6 @@
 # POPO: Positive Only Policy Optimization with Implicit Negative Rewards
 
-> **COLM 2026 under review** — A novel reinforcement learning algorithm that learns optimal policies using only positive examples, designed for Reinforcement Learning with Verifiable Rewards (RLVR) in mathematical reasoning.
+> **ICONIP 2026 under review** 
 
 
 ![Figure 1](assets/images/Figure_1.png)
