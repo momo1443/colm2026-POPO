@@ -1,6 +1,6 @@
 # POPO: Positive Only Policy Optimization with Implicit Negative Rewards
 
-> **ICONIP 2026 under review** 
+> A self-distillation integrated RLVR framework that learning occurs exclusively on online positive rollouts, designed for Reinforcement Learning with Verifiable Rewards (RLVR) in mathematical reasoning.
 
 
 ![Figure 1](assets/images/Figure_1.png)
